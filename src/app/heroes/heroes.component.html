@@ -7,14 +7,4 @@
     </li>
 </ul>
 
-<div *ngIf="selectedHero">
-
-  <h2>Супергерой {{selectedHero.name | uppercase}}:</h2>
-  <div><span>номер: </span>{{selectedHero.id}}</div>
-  <div>
-    <label>имя:
-      <input [(ngModel)]="selectedHero.name" placeholder="name">
-    </label>
-  </div>
-
-</div>
+<app-hero-details [hero]="selectedHero"></app-hero-details>

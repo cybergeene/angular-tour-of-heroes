@@ -1,32 +1,38 @@
 /* HeroesComponent's private CSS styles */
 .selected{
-  background-color: #cfd8dc !important;
-  color: white;
+  /*background-color: #cfd8dc !important;*/
+  background-color: #0092ca !important;
+  color: black;
 }
 .heroes{
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
+  color: white;
   width: 15em;
 }
 .heroes li{
   cursor: pointer;
   position: relative;
   left: 0;
-  background-color: #eee;
+  /*background-color: #eee;*/
+  background-color: #00abe7;
   margin: .5em;
   padding: .3em 0;
   height: 1.6em;
-  border-radius: 4px;
+  border-radius: 10px;
 }
-.heroes li.seleted:hover{
-  background-color: #bbd8dc !important;
-  color: white
+.heroes li.selected:hover {
+  /*background-color: #bbd8dc !important;*/
+  background-color: #006184 !important;
+  color: white;
 }
 .heroes li:hover {
-  color: #607d8d;
-  background-color: #ddd;
+  /*color: #607d8d;*/
+  color: yellow;
+  background-color: #00abe7;
   left: .1em;
+  top: .1em;
 }
 .heroes .text {
   position: relative;
@@ -37,12 +43,13 @@
   font-size: small;
   color: white;
   padding: 0.8em 0.7em 0 0.7em;
-  background-color: #607d8d;
+  /*background-color: #607d8d;*/
+  background-color: #ee7400;
   line-height: 1em;
   position: relative;
   left: -1px;
   top: -4px;
-  height: 2.8em;
+  height: 1.8em;
   margin-right: .8em;
-  border-radius: 4px 0 0 4px;
+  border-radius: 10px 0 0 10px;
 }
